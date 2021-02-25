@@ -73,6 +73,19 @@
     border-radius: 50%;
 }
 
+.HTBeTechnical-image {
+    display: grid;
+    size: relative;
+    height: 75%;
+    width: 75%;
+    position: relative;
+    left: 25%;
+    top: 20%;
+    background-image:url(images/03HashtagBeTechnical-image.png);
+    background-size: 100%;
+    border-radius: 50%;    
+}
+
 .main-content-1 {
     grid-area: main1;
     background-color: white;
@@ -313,6 +326,20 @@
     bottom: 42.5%;
     left: 1%;
     background-image: url(images/Rotating\ Arrow\ \(orange\).png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    animation: spin 3s linear infinite;
+}
+
+.rotating-arrow-purple{
+    display: grid;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 42.5%;
+    left: 1%;
+    background-image: url(images/Rotating\ Arrow\ \(purple\).png);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
