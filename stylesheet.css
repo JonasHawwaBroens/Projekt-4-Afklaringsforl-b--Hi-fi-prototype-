@@ -34,6 +34,32 @@
     border-radius: 50%;
 }
 
+.the-5-phases-steps-image {
+    display: grid;
+    size: relative;
+    height: 75%;
+    width: 75%;
+    position: relative;
+    left: 25%;
+    top: 20%;
+    background-image:url(images/The\ 5\ Phases\ Steps\ Image.png);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.HTBeCurious-image {
+    display: grid;
+    size: relative;
+    height: 75%;
+    width: 75%;
+    position: relative;
+    left: 25%;
+    top: 20%;
+    background-image:url(images/01\ HashtagBeCurious-image.png);
+    background-size: 100%;
+    border-radius: 50%;
+}
+
 .main-content-1 {
     grid-area: main1;
     background-color: white;
@@ -48,7 +74,8 @@
     left: 60%;
     width: 40%;
     height: 100%;
-    background-color: rgb(45, 96, 97);
+    background-image: url(images/Background\ f\ Main\ Content\ TTL.png);
+    background-size: 100%;
 }
 
 .element-2 {
@@ -93,8 +120,37 @@
     font-size: 130%;
     left: 1%;
     top: 1%;
-    font-weight: bold;
     color: rgb(45, 96, 97);
+    line-height: relative;
+    line-height: 175%;
+}
+
+.The-5-Phases-image {
+    display: grid;
+    size: relative;
+    width: 59%;
+    height: 83.5%;
+    position: relative;
+    bottom: 90%;
+    left: 2.5%;
+    background-image: url(images/The-5-Phases-image.png);
+    background-size: 100%;
+    transition: 1.25s;
+    z-index: 1;
+}
+
+.The-5-Phases-image:hover {
+    display: grid;
+    size: relative;
+    width: 100%;
+    height: 140%;
+    position: relative;
+    bottom: 90%;
+    left: 2.5%;
+    background-image: url(images/The-5-Phases-image.png);
+    background-size: 100%;
+    transition: 1.25s;
+    z-index: 1;
 }
 
 .text-element-2 {
@@ -109,6 +165,19 @@
     color: rgb(45, 96, 97);    
 }
 
+.text-element-3 {
+    position: relative;
+    size: relative;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: normal;
+    font-size: 130%;
+    left: 1%;
+    bottom: 40.5%;
+    color: rgb(45, 96, 97);
+    line-height: relative;
+    line-height: 175%;
+}
+
 .button-1{
     display: grid;
     size: relative;
@@ -119,6 +188,7 @@
     left: 50%;
     background-color: rgb(255, 255, 255);
     border: solid rgb(180, 197, 136);
+    transition: 0.25s;
 }
 
 .button-1:hover{
@@ -128,9 +198,10 @@
     height: 5%;
     position: relative;
     top: 10%;
-    left: 50%;
-    background-color: rgb(237, 237, 238);
+    left: 55%;
+    background-color: rgb(255, 255, 255);
     border: solid rgb(180, 197, 136);
+    transition: 0.25s;
 }
 
 .button-2{
@@ -142,6 +213,7 @@
     top: 17.5%;
     right: 45%;
     background-color: rgb(255, 255, 255);
+    transition: 0.25s;
     border: solid rgb(180, 197, 136);
 }
 
@@ -152,8 +224,9 @@
     height: 3.5%;
     position: relative;
     top: 17.5%;
-    right: 45%;
-    background-color: rgb(237, 237, 238);
+    right: 50%;
+    background-color: rgb(255, 255, 255);
+    transition: 0.25s;
     border: solid rgb(180, 197, 136);
 }
 
@@ -205,6 +278,21 @@
     background-size: cover;
 }
 
+.rotating-arrow-green{
+    display: grid;
+    size: relative;
+    width: 27.5%;
+    height: 50%;
+    position: relative;
+    bottom: 70%;
+    left: 1%;
+    background-image: url(images/Rotating\ Arrow\ \(green\).png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    animation: spin 3s linear infinite;
+}
+
 .HoC-icon {
     display: grid;
     size: relative;
@@ -236,4 +324,8 @@
     grid-area: footer;
     background-color: white;
     background-size: cover;
+}
+
+@keyframes spin {
+    100%{-webkit-transform: rotate(360deg);}
 }
