@@ -47,7 +47,7 @@
     border-radius: 50%;
 }
 
-.HTBeCurious-image {
+.HTBeCreative-image {
     display: grid;
     size: relative;
     height: 75%;
@@ -55,7 +55,7 @@
     position: relative;
     left: 25%;
     top: 20%;
-    background-image:url(images/01\ HashtagBeCurious-image.png);
+    background-image:url(images/02HashtagBeCreative-image.png);
     background-size: 100%;
     border-radius: 50%;
 }
@@ -280,13 +280,26 @@
 
 .rotating-arrow-green{
     display: grid;
-    size: relative;
-    width: 27.5%;
-    height: 50%;
+    width: 200px;
+    height: 200px;
     position: relative;
-    bottom: 70%;
+    bottom: 42.5%;
     left: 1%;
     background-image: url(images/Rotating\ Arrow\ \(green\).png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    animation: spin 3s linear infinite;
+}
+
+.rotating-arrow-orange{
+    display: grid;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 42.5%;
+    left: 1%;
+    background-image: url(images/Rotating\ Arrow\ \(orange\).png);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
