@@ -47,6 +47,19 @@
     border-radius: 50%;
 }
 
+.HTBeCurious-image {
+    display: grid;
+    size: relative;
+    height: 75%;
+    width: 75%;
+    position: relative;
+    left: 25%;
+    top: 20%;
+    background-image:url(images/01\ HashtagBeCurious-image.png);
+    background-size: 100%;
+    border-radius: 50%;
+}
+
 .HTBeCreative-image {
     display: grid;
     size: relative;
