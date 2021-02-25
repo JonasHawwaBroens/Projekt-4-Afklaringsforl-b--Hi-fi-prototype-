@@ -99,6 +99,19 @@
     border-radius: 50%;    
 }
 
+.HTBeAwsome-image {
+    display: grid;
+    size: relative;
+    height: 75%;
+    width: 75%;
+    position: relative;
+    left: 25%;
+    top: 20%;
+    background-image:url(images/05HashtagBeAwsome-image.png);
+    background-size: 100%;
+    border-radius: 50%;    
+}
+
 .main-content-1 {
     grid-area: main1;
     background-color: white;
@@ -293,13 +306,37 @@
     left: 8%;
 }
 
-.green-arrow {
+.button-link-element-3 {
+    position: relative;
+    size: relative;
+    font-family: 'Source Code Pro', monospace;
+    text-align: left;
+    color: rgb(45, 96, 97);
+    text-decoration: none;
+    font-size: 110%;
+    top: 5%;
+    left: 12.5%;
+}
+
+.green-arrow-1 {
+    display: grid;
+    size: relative;
+    width: 15%;
+    height: 150%;
+    position: relative;
+    top: 100%;
+    left: 80%;
+    background-image: url(images/Green\ Arrow.png);
+    background-size: cover;
+}
+
+.green-arrow-2 {
     display: grid;
     size: relative;
     width: 15%;
     height: 190%;
     position: relative;
-    top: 100%;
+    top: 180%;
     left: 80%;
     background-image: url(images/Green\ Arrow.png);
     background-size: cover;
@@ -336,7 +373,7 @@
     width: 200px;
     height: 200px;
     position: relative;
-    bottom: 42.5%;
+    bottom: 50%;
     left: 1%;
     background-image: url(images/Rotating\ Arrow\ \(orange\).png);
     background-size: cover;
@@ -350,7 +387,7 @@
     width: 200px;
     height: 200px;
     position: relative;
-    bottom: 42.5%;
+    bottom: 50%;
     left: 1%;
     background-image: url(images/Rotating\ Arrow\ \(purple\).png);
     background-size: cover;
@@ -364,9 +401,23 @@
     width: 200px;
     height: 200px;
     position: relative;
-    bottom: 42.5%;
+    bottom: 60%;
     left: 1%;
     background-image: url(images/Rotating\ Arrow\ \(blue\).png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    animation: spin 3s linear infinite;
+}
+
+.rotating-arrow-red{
+    display: grid;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 50%;
+    left: 1%;
+    background-image: url(images/Rotating\ Arrow\ \(red\).png);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
