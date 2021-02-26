@@ -8,7 +8,8 @@ body{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #002626;
+    background-image: url(images/Background\ f\ Main\ Content\ TTL.png);
+    background-size: cover;
     overflow-y: hidden;
     transition: 0.5s;
 }
@@ -23,18 +24,27 @@ body{
 .dropdown a{
     padding: 8px;
     text-decoration: none;
-    font-size: 30px;
-    color: grey;
-    display: block;
+    font-size: 40px;
+    color: rgb(175, 175, 175);
+    display: inline;
     transition: 0.3s;
 }
 
 .dropdown a:hover, .dropdown a:focus {
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
 }
 
 .hamburger{
     color: #0e4749;
+    left: 10px;
+    top: 20px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.hamburger:hover{
+    color: #0e4749;
+    opacity: 75%;
+    transition: 0.75s;
     left: 10px;
     top: 20px;
     font-size: 50px;
