@@ -20,6 +20,15 @@ body{
     margin-top: 30px;
 }
 
+.dropdown a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px;
+    color: grey;
+    display: block;
+    transition: 0.3s;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 100%;
