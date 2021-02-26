@@ -40,6 +40,12 @@ body{
     font-size: 50px;
     cursor: pointer;
 }
+.dropdown .buttonX {
+    top: 20px;
+    right: 50px;
+    font-size: 70px;
+    color: #73937e;
+}
 
 .grid-container {
     display: grid;
