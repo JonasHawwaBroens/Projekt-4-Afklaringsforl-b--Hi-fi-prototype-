@@ -29,6 +29,10 @@ body{
     transition: 0.3s;
 }
 
+.dropdown a:hover, .dropdown a:focus {
+    color: whitesmoke;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 100%;
