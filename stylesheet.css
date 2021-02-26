@@ -29,12 +29,12 @@
     position: relative;
     left: 25%;
     top: 20%;
-    background-image:url(images/Clarification-icon.png);
+    background-image:url(images/Clarification\ Process-icon.png);
     background-size: cover;
     border-radius: 50%;
 }
 
-.the-5-phases-steps-image {
+.settle-clarification-process-image {
     display: grid;
     size: relative;
     height: 75%;
@@ -42,7 +42,21 @@
     position: relative;
     left: 25%;
     top: 20%;
-    background-image:url(images/The\ 5\ Phases\ Steps\ Image.png);
+    background-image:url(images/Settle\ Clarification\ Process-image.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.the-5-phases-icon {
+    display: grid;
+    size: relative;
+    height: 75%;
+    width: 75%;
+    position: relative;
+    left: 25%;
+    top: 20%;
+    background-image:url(images/The\ 5\ Phases-icon.png);
     background-size: cover;
     border-radius: 50%;
 }
@@ -167,7 +181,7 @@
 .text-element-1 {
     position: relative;
     size: relative;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Fira Code', monospace;
     font-weight: normal;
     font-size: 130%;
     left: 1%;
@@ -208,7 +222,7 @@
 .text-element-2 {
     position: relative;
     size: relative;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Fira Code', monospace;
     font-weight: bold;
     font-size: 250%;
     left: 1%;
@@ -220,7 +234,7 @@
 .text-element-3 {
     position: relative;
     size: relative;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Fira Code', monospace;
     font-weight: normal;
     font-size: 130%;
     left: 1%;
@@ -282,10 +296,36 @@
     border: solid rgb(180, 197, 136);
 }
 
+.button-3{
+    display: grid;
+    size: relative;
+    width: 90%;
+    height: 3.5%;
+    position: relative;
+    top: 7.5%;
+    left: 50%;
+    background-color: rgb(255, 255, 255);
+    transition: 0.25s;
+    border: solid rgb(180, 197, 136);
+}
+
+.button-3:hover{
+    display: grid;
+    size: relative;
+    width: 90%;
+    height: 3.5%;
+    position: relative;
+    top: 7.5%;
+    left: 45%;
+    background-color: rgb(255, 255, 255);
+    transition: 0.25s;
+    border: solid rgb(180, 197, 136);
+}
+
 .button-link-element-1 {
     position: relative;
     size: relative;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Fira Code', monospace;
     text-align: center;
     color: rgb(45, 96, 97);
     text-decoration: none;
@@ -297,7 +337,7 @@
 .button-link-element-2 {
     position: relative;
     size: relative;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Fira Code', monospace;
     text-align: center;
     color: rgb(45, 96, 97);
     text-decoration: none;
@@ -309,7 +349,7 @@
 .button-link-element-3 {
     position: relative;
     size: relative;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Fira Code', monospace;
     text-align: left;
     color: rgb(45, 96, 97);
     text-decoration: none;
@@ -324,7 +364,7 @@
     width: 15%;
     height: 150%;
     position: relative;
-    top: 100%;
+    top: 110%;
     left: 80%;
     background-image: url(images/Green\ Arrow.png);
     background-size: cover;
@@ -334,9 +374,9 @@
     display: grid;
     size: relative;
     width: 15%;
-    height: 190%;
+    height: 200%;
     position: relative;
-    top: 180%;
+    top: 190%;
     left: 80%;
     background-image: url(images/Green\ Arrow.png);
     background-size: cover;
@@ -348,7 +388,7 @@
     width: 15%;
     height: 150%;
     position: relative;
-    top: 80%;
+    top: 100%;
     left: 5%;
     background-image: url(images/Red\ Cross.png);
     background-size: cover;
