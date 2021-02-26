@@ -33,6 +33,14 @@ body{
     color: whitesmoke;
 }
 
+.hamburger{
+    color: #0e4749;
+    left: 10px;
+    top: 20px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 100%;
