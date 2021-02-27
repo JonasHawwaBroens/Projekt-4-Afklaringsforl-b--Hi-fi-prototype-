@@ -7,7 +7,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
-    <script src="javascript.js"></script>
     <title>03 Afregn dit Afklaringsforløb</title>
 </head>
 <body>
@@ -50,17 +49,70 @@
             </wrapper>
 
             <wrapper class="element-2">
+
+                <div class="container">  
+                    <h2>Video Category</h2>
+                    
+                    <div class="select-box">
+                        <div class="options-container">
+                            <div class="option">
+                                <input 
+                                type="radio" 
+                                class="radio" 
+                                id="automobiles" 
+                                name="category">
+                                <label for="automobiles">Automobiles</label>
+                            </div>
+                            
+                            <div class="option">
+                                <input type="radio" class="radio" id="film" name="category">
+                                <label for="film">Film & Animation</label>
+                            </div>
+                            
+                            <div class="option">
+                                <input type="radio" class="radio" id="science" name="category">
+                                <label for="science">Science & Technology</label>
+                            </div>
+
+                            <div class="option">
+                                <input type="radio" class="radio" id="art" name="category">
+                                <label for="art">Art</label>
+                            </div>
+
+                            <div class="option">
+                                <input type="radio" class="radio" id="music" name="category">
+                                <label for="music">Music</label>
+                            </div>
+
+                            <div class="option">
+                                <input type="radio" class="radio" id="travel" name="category">
+                                <label for="travel">Travel & Events</label>
+                            </div>
+
+                            <div class="option">
+                                <input type="radio" class="radio" id="sports" name="category">
+                                <label for="sports">Sports</label>
+                            </div>
+
+                            <div class="option">
+                                <input type="radio" class="radio" id="news" name="category">
+                                <label for="news">News & Politics</label>
+                            </div>
+
+                            <div class="option">
+                                <input type="radio" class="radio" id="tutorials" name="category">
+                                <label for="tutorials">Tutorials</label>
+                            </div>
+                        </div>
+                        
+                        <div class="selected">
+                            Selected Video Category
+                        </div>
+                    </div>
+                </div>
+
                 <div class="text-box-1">
                    <p class="text-element-1">
-                       <h1>Are you a developer?</h1>
-                       <div>
-                           <select>
-                               <option value="yes">Yes</option>
-                               <option value="no">No</option>
-                           </select>
-                           <label><input type="radio" name="programming" value="csharp"> C#</label>
-                           <label><input type="radio" name="programming" value="javascrip"> JavaScript</label>
-                       </div>
                    </p>
                 </div>
             </wrapper>
@@ -80,5 +132,6 @@
         </div>
 
     </div>
+    <script src="javascript.js"></script>
 </body>
 </html>
