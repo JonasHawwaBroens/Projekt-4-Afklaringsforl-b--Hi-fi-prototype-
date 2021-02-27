@@ -221,12 +221,15 @@ body{
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Fira Code', monospace;
     background: #f7f6ff;
 }
 
 h2 {
     margin: 16px;
+    color: rgb(45, 96, 97);
+    size: relative;
+    font-size: 127.5%;
 }
 
 .container {
@@ -237,12 +240,13 @@ h2 {
 .select-box {
     position: relative;
     display: flex;
-    width: 400px;
+    width: 650px;
     flex-direction: column;
 }
 
 .select-box .options-container {
-    background: #2f3640;
+    background-image: url(images/Background\ f\ Main\ Content\ TTL.png);
+    background-size: cover;
     color: #f5f6fa;
     max-height: 0; 
     width: 100%;
@@ -255,7 +259,8 @@ h2 {
 }
 
 .selected {
-    background-color: #2f3640;
+    background-image: url(images/Background\ f\ Main\ Content\ TTL.png);
+    background-size: cover;
     border-radius: 8px;
     margin-bottom: 8px;
     color: #f5f6fa;
@@ -309,7 +314,9 @@ h2 {
 }
 
 .select-box .option:hover {
-    background: #414b57;
+    background-image: url(images/Background\ f\ Main\ Content\ TTL.png);
+    background-size: cover;
+    opacity: 66.66%;
 }
 
 .select-box label {
@@ -330,7 +337,7 @@ h2 {
     position: absolute;
     border-radius: 8px 8px 0 0;
     z-index: 100;
-    border: 8px solid #2f3640;
+    border: 8px solid rgb(45, 96, 97);
 
     opacity: 0;
     pointer-events: none;
