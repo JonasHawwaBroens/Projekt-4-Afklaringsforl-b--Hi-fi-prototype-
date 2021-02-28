@@ -363,6 +363,13 @@ h2 {
     z-index: 98;
 }
 
+h1 {
+    padding: 16px;
+    font-size: 22px;
+    color: black;
+    text-align: center;
+}
+
 .text-box-1 {
     display: grid;
     size: relative;
