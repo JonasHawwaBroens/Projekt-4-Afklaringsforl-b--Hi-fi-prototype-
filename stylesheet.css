@@ -428,6 +428,14 @@ label {
     background: #01708b;
 }
 
+.form-status {
+    padding: 8px;
+    text-align: center;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: -24px;
+}
+
 .text-box-1 {
     display: grid;
     size: relative;
