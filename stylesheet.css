@@ -400,6 +400,13 @@ h1 {
     outline: none;
 }
 
+label {
+    position: absolute;
+    font-size: 18px;
+    color: #aaa;
+    transition: all .4s;
+}
+
 .text-box-1 {
     display: grid;
     size: relative;

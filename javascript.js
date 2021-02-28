@@ -25,7 +25,7 @@ selected.addEventListener("click", () => {
 
 optionsList.forEach( o => {
     o.addEventListener("click", () => {
-        selected.innerHTML = o.querySelector("label").innerHTML;
+        selected.innerHTML = o.querySelector("label-1").innerHTML;
         optionsContainer.classList.remove("active");
     })
 })
