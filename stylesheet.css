@@ -437,7 +437,14 @@ label {
 }
 
 .move-up {
-    
+    margin-top: -32px;
+    margin-left: 0px;
+    font-size: 14px;
+    background-color: #ff0000;
+    border-radius: 8px 0;
+    color: white;
+    padding: 4px 8px;
+    min-width: 100px;
 }
 
 .text-box-1 {
