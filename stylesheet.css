@@ -423,6 +423,10 @@ label {
     transition: .4s;
 }
 
+.gt-button:hover {
+    background: #01708b;
+}
+
 .text-box-1 {
     display: grid;
     size: relative;
