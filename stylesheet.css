@@ -430,7 +430,7 @@ label {
 
 .form-status {
     padding: 8px;
-    text-align: center;
+    text-align: left;
     color: white;
     margin-top: 8px;
     margin-bottom: -24px;
@@ -445,6 +445,36 @@ label {
     color: white;
     padding: 4px 8px;
     min-width: 100px;
+}
+
+.Click-Here {
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: white;
+    background: #00485a;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.Click-Here:hover {
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: white;
+    background: #01171d;
+    transition: .4s;
+}
+
+.hide{
+    display: none;
+    position: relative;
+}
+
+.show{
+    display: block;
 }
 
 .text-box-1 {

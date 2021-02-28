@@ -62,3 +62,9 @@ for (let i = 0; i < GTInput.length; i++) {
       }
     })
 }
+
+$(function() {
+    $("#visible").click(function() {
+        $('#invisible').toggleClass("show");
+    });
+});
