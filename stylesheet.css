@@ -421,6 +421,7 @@ label {
     color: white;
     background: #00485a;
     transition: .4s;
+    cursor: pointer;
 }
 
 .gt-button:hover {
