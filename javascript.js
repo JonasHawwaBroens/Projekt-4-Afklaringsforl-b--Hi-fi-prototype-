@@ -45,3 +45,5 @@ const filterList = searchTerm => {
         }
     });
 };
+
+const GTInput = document.querySelectorAll(".gt-input");
