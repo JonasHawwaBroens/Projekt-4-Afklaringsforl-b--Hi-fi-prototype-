@@ -405,6 +405,10 @@ label {
     font-size: 18px;
     color: #aaa;
     transition: all .4s;
+    top: 24px;
+    transform: translateY(-50%);
+    margin-left: 24px;
+    cursor: text;
 }
 
 .text-box-1 {
