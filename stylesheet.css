@@ -349,6 +349,12 @@ h2 {
     pointer-events: auto;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .text-box-1 {
     display: grid;
     size: relative;
