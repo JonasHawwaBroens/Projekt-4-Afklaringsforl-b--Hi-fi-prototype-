@@ -47,3 +47,8 @@ const filterList = searchTerm => {
 };
 
 const GTInput = document.querySelectorAll(".gt-input");
+
+for (let i = 0; i < GTInput.length; i++) {
+    let currentLabel = GTInput[i]
+    .parentElement.firstElementChild;
+}
