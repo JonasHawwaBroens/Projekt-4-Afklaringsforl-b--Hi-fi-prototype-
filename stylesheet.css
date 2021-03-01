@@ -375,6 +375,8 @@ h1 {
 .main-form {
     background-image: url(images/Background\ f\ Main\ Content\ TTL.png);
     background-size: cover;
+    size: relative;
+    width: 170%;
     padding: 32px 20px;
 }
 
@@ -413,11 +415,14 @@ label {
 }
 
 .form-status {
-    padding: 8px;
+    padding: relative;
+    padding: 5%;
     text-align: left;
     color: rgb(255, 255, 255);
     margin-top: 8px;
     margin-bottom: -24px;
+    font-size: relative;
+    font-size: 120%;
 }
 
 .move-up {
@@ -431,8 +436,29 @@ label {
     min-width: 100px;
 }
 
+.info-above-button {
+    color: rgb(255, 255, 255);
+    font-size: relative;
+    font-size: 125%;
+    padding: relative;
+    padding: 5%;
+}
+
+.Send-data-icon {
+    position: relative;
+    bottom: 75%;
+    left: 20%;
+    background-color: rosybrown;
+    size: relative;
+    height: 5.5%;
+    width: 7.5%;
+
+}
+
 .Click-Here {
-    width: 50%;
+    position: relative;
+    left: 5%;
+    width: 45%;
     height: 30px;
     font-size: 20px;
     letter-spacing: 4px;
@@ -441,10 +467,11 @@ label {
     background-size: cover;
     transition: .4s;
     cursor: pointer;
+    text-align: center;
 }
 
 .Click-Here:hover {
-    width: 50%;
+    width: 45%;
     height: 30px;
     font-size: 20px;
     letter-spacing: 4px;
@@ -452,12 +479,16 @@ label {
     background-image: url(images/Background\ f\ Main\ Content\ TTR\ .png);
     transition: .4s;
     opacity: 75%;
+    text-align: center;
 }
 
 .hide{
     display: none;
-    position: relative;
     color: rgb(255, 255, 255);
+    padding: relative;
+    padding: 5%;
+    font-size: relative;
+    font-size: 120%;
 }
 
 .show{
