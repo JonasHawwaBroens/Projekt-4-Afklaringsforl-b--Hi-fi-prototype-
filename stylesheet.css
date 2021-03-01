@@ -879,10 +879,6 @@ label {
     background-size: cover;
 }
 
-@keyframes spin {
-    100%{-webkit-transform: rotate(360deg);}
-}
-
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
@@ -1768,3 +1764,8 @@ label {
         background-size: cover;
     }
 }
+
+@keyframes spin {
+    100%{-webkit-transform: rotate(360deg);}
+}
+
