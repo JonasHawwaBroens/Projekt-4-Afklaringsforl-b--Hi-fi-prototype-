@@ -366,8 +366,8 @@ h2 {
 h1 {
     padding: 16px;
     font-size: 22px;
-    color: black;
-    text-align: center;
+    color: rgb(45, 96, 97);
+    text-align: left;
 }
 
 /* Form */
@@ -412,27 +412,10 @@ label {
     cursor: text;
 }
 
-.gt-button {
-    width: 100%;
-    height: 60px;
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    border: 0;
-    color: white;
-    background: #00485a;
-    transition: .4s;
-    cursor: pointer;
-}
-
-.gt-button:hover {
-    background: #01708b;
-}
-
 .form-status {
     padding: 8px;
     text-align: left;
-    color: white;
+    color: rgb(255, 255, 255);
     margin-top: 8px;
     margin-bottom: -24px;
 }
@@ -441,9 +424,9 @@ label {
     margin-top: -32px;
     margin-left: 0px;
     font-size: 14px;
-    background-color: #ff0000;
-    border-radius: 8px 0;
-    color: white;
+    background-image: url(images/Background\ f\ Main\ Content\ TTR\ .png);
+    background-size: cover;
+    color: rgb(45, 96, 97);
     padding: 4px 8px;
     min-width: 100px;
 }
@@ -453,8 +436,9 @@ label {
     height: 30px;
     font-size: 20px;
     letter-spacing: 4px;
-    color: white;
-    background: #00485a;
+    color: rgb(45, 96, 97);
+    background-image: url(images/Background\ f\ Main\ Content\ TTR\ .png);
+    background-size: cover;
     transition: .4s;
     cursor: pointer;
 }
@@ -464,14 +448,16 @@ label {
     height: 30px;
     font-size: 20px;
     letter-spacing: 4px;
-    color: white;
-    background: #01171d;
+    color: rgb(45, 96, 97);
+    background-image: url(images/Background\ f\ Main\ Content\ TTR\ .png);
     transition: .4s;
+    opacity: 75%;
 }
 
 .hide{
     display: none;
     position: relative;
+    color: rgb(255, 255, 255);
 }
 
 .show{
