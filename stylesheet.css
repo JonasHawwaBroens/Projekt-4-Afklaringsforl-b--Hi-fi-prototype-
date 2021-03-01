@@ -8,7 +8,7 @@ body{
     z-index: 100;
     top: 0;
     left: 0;
-    background-image: url(images/Background\ f\ Main\ Content\ TTL.png);
+    background-image: url(images/Background\ f\ Main\ Content\ TTR.png);
     background-size: cover;
     overflow-y: hidden;
     transition: 0.5s;
@@ -199,7 +199,7 @@ body{
     left: 60%;
     width: 40%;
     height: 100%;
-    background-image: url(images/Background\ f\ Main\ Content\ TTL.png);
+    background-image: url(images/Background\ f\ Main\ Content\ TTR.png);
     background-size: 100%;
 }
 
@@ -211,7 +211,7 @@ body{
     width: 60%;
     height: 100%;
     bottom: 100%;
-    background-image: url(images/Background\ f\ Main\ Content\ TTR\ .png);
+    background-image: url(images/Background\ f\ Main\ Content\ TTL\ .png);
     background-size: 100%;
 }
 
@@ -222,7 +222,7 @@ body{
 
 body {
     font-family: 'Fira Code', monospace;
-    background: #f7f6ff;
+    background: rgb(255, 255, 255);
 }
 
 h2 {
@@ -245,7 +245,7 @@ h2 {
 }
 
 .select-box .options-container {
-    background-image: url(images/Background\ f\ Main\ Content\ TTL.png);
+    background-image: url(images/Background\ f\ Main\ Content\ TTR.png);
     background-size: cover;
     color: #f5f6fa;
     max-height: 0; 
@@ -259,7 +259,7 @@ h2 {
 }
 
 .selected {
-    background-image: url(images/Background\ f\ Main\ Content\ TTL.png);
+    background-image: url(images/Background\ f\ Main\ Content\ TTR.png);
     background-size: cover;
     margin-bottom: 8px;
     color: #f5f6fa;
@@ -311,7 +311,7 @@ h2 {
 }
 
 .select-box .option:hover {
-    background-image: url(images/Background\ f\ Main\ Content\ TTL.png);
+    background-image: url(images/Background\ f\ Main\ Content\ TTR.png);
     background-size: cover;
     opacity: 66.66%;
 }
@@ -373,7 +373,7 @@ h1 {
 /* Form */
 
 .main-form {
-    background-image: url(images/Background\ f\ Main\ Content\ TTL.png);
+    background-image: url(images/Background\ f\ Main\ Content\ TTR.png);
     background-size: cover;
     size: relative;
     width: 170%;
@@ -429,7 +429,7 @@ label {
     margin-top: -32px;
     margin-left: 0px;
     font-size: 14px;
-    background-image: url(images/Background\ f\ Main\ Content\ TTR\ .png);
+    background-image: url(images/Background\ f\ Main\ Content\ TTL\ .png);
     background-size: cover;
     color: rgb(45, 96, 97);
     padding: 4px 8px;
@@ -463,7 +463,7 @@ label {
     font-size: 20px;
     letter-spacing: 4px;
     color: rgb(45, 96, 97);
-    background-image: url(images/Background\ f\ Main\ Content\ TTR\ .png);
+    background-image: url(images/Background\ f\ Main\ Content\ TTL\ .png);
     background-size: cover;
     transition: .4s;
     cursor: pointer;
@@ -476,7 +476,7 @@ label {
     font-size: 20px;
     letter-spacing: 4px;
     color: rgb(45, 96, 97);
-    background-image: url(images/Background\ f\ Main\ Content\ TTR\ .png);
+    background-image: url(images/Background\ f\ Main\ Content\ TTL\ .png);
     transition: .4s;
     opacity: 75%;
     text-align: center;
