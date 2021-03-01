@@ -61,7 +61,6 @@ body{
     display: grid;
     grid-template-columns: 100%;
     grid-auto-rows: minmax(150px, auto);
-    background-color: transparent;
     grid-template-areas: 
     "header" "header"
     "main1" "main1" 
@@ -213,6 +212,15 @@ body{
     bottom: 100%;
     background-image: url(images/Background\ f\ Main\ Content\ TTL\ .png);
     background-size: 100%;
+}
+
+.HoC-co-image {
+    display: grid;
+    object-position: left;
+    height: 500px;
+    width: 700px;
+    background-image: url(images/Clarification\ Process-image.png);
+    background-size: cover;
 }
 
 * {
@@ -517,6 +525,17 @@ label {
     background-color: transparent;
 }
 
+.text-box-3 {
+    display: grid;
+    size: relative;
+    width: 70%;
+    height: 95%;
+    position: relative;
+    top: 2.5%;
+    left: 10%;
+    background-color: transparent;
+}
+
 .text-element-1 {
     position: relative;
     size: relative;
@@ -534,7 +553,7 @@ label {
     display: grid;
     size: relative;
     width: 59%;
-    height: 83.5%;
+    height: 77.25%;
     position: relative;
     bottom: 90%;
     left: 2.5%;
@@ -548,7 +567,7 @@ label {
     display: grid;
     size: relative;
     width: 100%;
-    height: 140%;
+    height: 130%;
     position: relative;
     bottom: 90%;
     left: 2.5%;
@@ -721,6 +740,18 @@ label {
     background-size: cover;
 }
 
+.green-arrow-3 {
+    display: grid;
+    size: relative;
+    width: 15%;
+    height: 130%;
+    position: relative;
+    top: 105%;
+    left: 75%;
+    background-image: url(images/Green\ Arrow.png);
+    background-size: cover;
+}
+
 .red-cross {
     display: grid;
     size: relative;
@@ -729,6 +760,18 @@ label {
     position: relative;
     top: 100%;
     left: 5%;
+    background-image: url(images/Red\ Cross.png);
+    background-size: cover;
+}
+
+.red-cross-2 {
+    display: grid;
+    size: relative;
+    width: 15%;
+    height: 180%;
+    position: relative;
+    top: 85%;
+    left: 2.5%;
     background-image: url(images/Red\ Cross.png);
     background-size: cover;
 }
