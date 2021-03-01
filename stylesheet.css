@@ -373,7 +373,8 @@ h1 {
 /* Form */
 
 .main-form {
-    background-color: #59a5b8;
+    background-image: url(images/Background\ f\ Main\ Content\ TTL.png);
+    background-size: cover;
     padding: 32px 20px;
 }
 
